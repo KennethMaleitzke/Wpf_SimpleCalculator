@@ -1,0 +1,22 @@
+﻿<Window x:Class="Wpf_SimpleCalculator.SolutionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_SimpleCalculator"
+        mc:Ignorable="d"
+        Title="SolutionWindow" Height="300" Width="300">
+    <StackPanel>
+        <Label
+            x:Name="Label_Volume"
+            HorizontalAlignment="Center"
+            Margin="20"
+            Content="Volume"/>
+        <Button
+            x:Name="Button_Close"
+            Width="100"
+            Height="30"
+            Content="Close"
+            Click="Button_Close_Click"/>
+    </StackPanel>
+</Window>
